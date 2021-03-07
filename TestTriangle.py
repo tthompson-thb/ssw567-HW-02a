@@ -18,7 +18,7 @@ class TestTriangles(unittest.TestCase):
     # define multiple sets of tests as functions with names that begin
 
 
-    def testIsATriangnle(self): 
+    def testIsATriangle(self): 
         self.assertEqual(classifyTriangle(3,4,0),'Not a triangle')
         
     def testRightTriangle(self): 
